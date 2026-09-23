@@ -4,7 +4,7 @@ kind: Service
 
 metadata:
   name: springboot-service
-  namespace: loadbalancer
+  namespace: jenkinsnew
 
 spec:
 
