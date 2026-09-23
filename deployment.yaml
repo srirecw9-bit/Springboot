@@ -4,7 +4,11 @@ kind: Deployment
 
 metadata:
   name: springboot-k8s-demo
+<<<<<<< HEAD
   namespace: jenkins
+=======
+  namespace: jenkinsnew
+>>>>>>> 727409b2a408a15f6bb5dc2aff31583e0e81a335
 
 spec:
 
@@ -31,4 +35,8 @@ spec:
           imagePullPolicy: IfNotPresent
 
           ports:
+<<<<<<< HEAD
             - containerPort: 8080
+=======
+            - containerPort: 8080
+>>>>>>> 727409b2a408a15f6bb5dc2aff31583e0e81a335

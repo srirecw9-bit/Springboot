@@ -4,7 +4,11 @@ kind: Service
 
 metadata:
   name: springboot-service
+<<<<<<< HEAD
   namespace: jenkins
+=======
+  namespace: jenkinsnew
+>>>>>>> 727409b2a408a15f6bb5dc2aff31583e0e81a335
 
 spec:
 
@@ -17,4 +21,8 @@ spec:
 
     - protocol: TCP
       port: 8080
+<<<<<<< HEAD
       targetPort: 8080
+=======
+      targetPort: 8080
+>>>>>>> 727409b2a408a15f6bb5dc2aff31583e0e81a335
