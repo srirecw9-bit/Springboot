@@ -18,6 +18,6 @@ public class HelloController {
 
     @GetMapping("/employee")
     public String employee() {
-        return "Employee: 101, Name: Jaisriram";
+        return "Employee: 101, Name: Jaisriram, Dept: CSE";
     }
 }
