@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String home() {
-        return "Hello KLH AZIZNAGAR from Spring Boot + Docker + Kubernetes!";
+        return "Hello from Spring Boot + Docker + Kubernetes!";
     }
 
     @GetMapping("/hello")
